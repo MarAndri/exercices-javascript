@@ -10,6 +10,7 @@
 // You will have time to focus on it later.
 
 (() => {
-    var bjr = "Hello World!";
-    alert(bjr);
+    /* let bjr = "Hello World!";
+    alert(bjr); */
+    alert("Hello world!");
 })();

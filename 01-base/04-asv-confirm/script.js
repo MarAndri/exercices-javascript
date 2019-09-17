@@ -14,7 +14,7 @@
         age = prompt("Quel est votre âge ?");
         sexe = prompt("indiquez votre sexe");
         ville = prompt("indiquez votre ville");
-        var c = confirm("Merci de confirmer vos informations : " + age + " - " + sexe + " - " + ville);
+        conf = confirm("Merci de confirmer vos informations : " + age + " - " + sexe + " - " + ville);
     }
-    while (c == false);
+    while (conf == false);
 })();

@@ -10,5 +10,12 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+    let input = document.querySelector("#pass-one");
+    input.addEventListener("input", () => {
+        console.log("test");
+        let number = new RegExp('[0-9].*[0-9]');
+        if (input.value.length >= 8 && input.value.match(number)) {
+            document.querySelector("#validity").innerHTML = "Ok";
+        }
+    })
 })();

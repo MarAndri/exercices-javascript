@@ -16,8 +16,12 @@
         let num = document.getElementById("number").value;
 
         function fact(x) {
-            return (x != 1) ? x * fact(x - 1) : 1;
+            if (x == O) {
+                return 1;
+            } else {
+                return (x != 1) ? x * fact(x - 1) : 1;
+            }
         }
-        alert(fact(num));
+        console.log(fact(num));
     })
 })();

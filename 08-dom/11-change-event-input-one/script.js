@@ -10,5 +10,13 @@
 // You will have time to focus on it later.
 
 (() => {
-    // your code here
+    let input = document.querySelector("#pass-one");
+    input.setAttribute("maxlength", 10);
+    input.addEventListener("input", () => {
+        let inputlen = input.value.length;
+        if (inputlen <= 10) {
+            document.querySelector("#counter").innerHTML = inputlen + "/10";
+        }
+    })
+
 })();

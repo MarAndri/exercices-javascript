@@ -24,3 +24,4 @@
 
     document.getElementById("target").innerHTML = hui.toLocaleDateString('fr-ca', huifr);
 })();
+//get hour

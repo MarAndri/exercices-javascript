@@ -27,3 +27,5 @@
 
     console.log(fruits.includes("pomme"));
 })();
+
+//manque l'event!

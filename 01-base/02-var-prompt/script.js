@@ -10,6 +10,6 @@
 // You will have time to focus on it later.
 
 (() => {
-    prenom = prompt("Quel est votre prénom?");
+    let prenom = prompt("Quel est votre prénom?");
     alert("Bonjour, " + prenom + "!");
 })();

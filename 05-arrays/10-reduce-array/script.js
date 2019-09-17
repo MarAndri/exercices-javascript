@@ -100,3 +100,6 @@
 
 
 })();
+
+//accumulator total val
+//fct flechee

@@ -27,7 +27,7 @@
 
     document.getElementById("run").addEventListener("click", () => {
         for (let fruit of fruits) {
-            console.log(fruit)
+            console.log(fruit);
         }
     })
 })();

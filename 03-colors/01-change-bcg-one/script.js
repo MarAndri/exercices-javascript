@@ -11,20 +11,7 @@
 
 (() => {
     const changeColor = bgcolor => {
-        switch (bgcolor) {
-            case 'red':
-                document.body.style.backgroundColor = bgcolor;
-                break;
-            case 'green':
-                document.body.style.backgroundColor = bgcolor;
-                break;
-            case 'yellow':
-                document.body.style.backgroundColor = bgcolor;
-                break;
-            case 'blue':
-                document.body.style.backgroundColor = bgcolor;
-                break;
-        }
+        document.body.style.backgroundColor = bgcolor;
     }
     Array.from(document.querySelectorAll("button")).forEach($btn =>
         $btn.addEventListener(

@@ -15,9 +15,7 @@
     document.getElementById("run").addEventListener("click", () => {
         let els = document.getElementById("numbers").value;
         let elssep = els.split(",");
-        elssep = elssep.sort(function (a, b) {
-            return a - b;
-        })
+        elssep = elssep.sort((a, b) => a - b);
         alert(elssep);
     });
 })();

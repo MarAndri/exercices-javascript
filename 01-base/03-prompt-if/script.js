@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 /* (() => {
-    var gateau = prompt("Voulez-vous du gâteau?"); {
+    let gateau = prompt("Voulez-vous du gâteau?"); {
         if (gateau == "oui") {
             alert("Bravo!");
         } else {
@@ -20,6 +20,8 @@
 })(); */
 
 (() => {
-    var gat = prompt("Voulez-vous du gâteau?");
+    let gat = prompt("Voulez-vous du gâteau?");
     alert(gat == "oui" ? "Bravo!" : ">_< ... Du gâteau, ça ne se refuse pas !");
 })();
+
+//checkbox!!!

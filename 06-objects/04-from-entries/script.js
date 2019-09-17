@@ -16,11 +16,9 @@
     document.getElementById("run").addEventListener("click", () => {
 
         let chat = new Map();
-        keys.forEach((elem, index) => {
-            chat.set(elem, values[index]);
+        keys.forEach((elem, ind) => {
+            chat.set(elem, values[ind]);
         })
         console.log(Object.fromEntries(chat));
-
     })
-
 })();

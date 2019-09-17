@@ -11,9 +11,9 @@
 
 (() => {
     document.getElementById("run").addEventListener("click", () => {
-        for (var i = 1; i < 21; i++) {
+        for (i = 1; i < 21; i++) {
             if (i % 2 === 0) {
-                alert(i * i);
+                console.log(i * i);
             }
         }
     });

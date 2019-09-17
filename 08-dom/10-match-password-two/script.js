@@ -14,12 +14,12 @@
         let pass1 = document.getElementById("pass-one").value;
         let pass2 = document.getElementById("pass-two").value;
         if (pass1 != pass2) {
-            let ajClass = document.createAttribute("class");
-            ajClass.value = "error";
-            /* document.input.setAttributeNode(ajClass); */
-            /* document.getElementById("pass-one").appendChild(ajClass); */
-            document.getElementById("pass-one").setAttributeNode(ajClass);
-            /* document.getElementById("pass-two").setAttributeNode(ajClass); */
+            let ajClass1 = document.createAttribute("class");
+            ajClass1.value = "error";
+            let ajClass2 = document.createAttribute("class");
+            ajClass2.value = "error";
+            document.getElementById("pass-one").setAttributeNode(ajClass1);
+            document.getElementById("pass-two").setAttributeNode(ajClass2);
         }
     })
 })();

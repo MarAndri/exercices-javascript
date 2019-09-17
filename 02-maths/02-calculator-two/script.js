@@ -13,20 +13,20 @@
     // to get the value of an input: document.getElementById("element-id").value
 
     const performOperation = operation => {
-        var a = document.getElementById("op-one").value;
-        var b = document.getElementById("op-two").value;
+        var a = Number(document.getElementById("op-one").value);
+        var b = Number(document.getElementById("op-two").value);
         switch (operation) {
             case 'addition':
-                alert(Number(a) + Number(b));
+                alert(a + b);
                 break;
             case 'substraction':
-                alert(Number(a) - Number(b));
+                alert(a - b);
                 break;
             case 'multiplication':
-                alert(Number(a) * Number(b));
+                alert(a * b);
                 break;
             case 'division':
-                alert(Number(a) / Number(b));
+                alert(a / b);
                 break;
         }
     };

@@ -19,6 +19,6 @@
             country: "Belgique"
         }
 
-        console.log(marAndri)
+        console.table(marAndri)
     })
 })();

@@ -72,7 +72,7 @@
         let nomdoiseau = birds[Math.floor(Math.random() * birds.length)];
         let adj = [...adjectives];
         let adjdoiseau = adj[Math.floor(Math.random() * adj.length)];
-        if (nomdoiseau.fem == true) {
+        if (nomdoiseau.fem) {
             document.getElementById("target").innerHTML = nomdoiseau.name + " " + adjdoiseau + "e";
         } else {
             document.getElementById("target").innerHTML = nomdoiseau.name + " " + adjdoiseau;
