@@ -18,3 +18,4 @@
     document.getElementById("target").innerHTML = tableau;
 
 })();
+//voir code JF

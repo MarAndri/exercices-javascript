@@ -15,3 +15,4 @@
         target[i].innerHTML = "owned";
     }
 })();
+//target.forEach element =>

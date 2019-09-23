@@ -23,3 +23,5 @@
         }
     })
 })();
+//voir code Damien
+// /!\ déclarer les valeurs en dehors du click, sans les "value"
