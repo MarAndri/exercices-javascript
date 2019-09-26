@@ -11,4 +11,16 @@
 
 (() => {
     // your code here
+    async function deleteHero(data) {
+        const hId = document.getElementById("hero-id").value;
+        const response = await fetch(`http://localhost:3000/heroes/${hId}`, {
+            method: 'DELETE'
+        });
+        const respdata = await response.json();
+        console.log(respdata);
+    };
+
+    document.getElementById("run").addEventListener("click", () => {
+        deleteHero();
+    })
 })();
